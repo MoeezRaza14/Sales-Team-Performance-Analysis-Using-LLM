@@ -37,6 +37,6 @@ Technologies: FastAPI, Pandas, Mistral AI, python-dotenv.
   - Expected: JSON with trend analysis and forecasts.
 - Save requests in a collection (e.g., "Sales API Tests") for documentation.
 - **Example curl Commands**:
-- curl "http://127.0.0.1:8000/api/rep_performance?rep_id=183"
-- curl "http://127.0.0.1:8000/api/team_performance"
-- curl "http://127.0.0.1:8000/api/performance_trends?time_period=monthly"
+- curl `http://127.0.0.1:8000/api/rep_performance?rep_id=183`
+- curl `http://127.0.0.1:8000/api/team_performance`
+- curl `http://127.0.0.1:8000/api/performance_trends?time_period=monthly`
